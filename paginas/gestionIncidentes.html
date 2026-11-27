@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!-- Formulario de registro y listado filtrable de incidentes. | Responsable: Dev1 | Historia ClickUp: 2.3.2 | RF01 -->
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gestion de incidentes</title>
+  <link rel="stylesheet" href="../css/estilosGlobales.css" />
+</head>
+<body>
+  <header id="contenedorNavegacion"></header>
+  <main class="contenedorPrincipal">
+    <h1>Gestion de incidentes</h1>
+    <section>
+      <h2>Registrar incidente</h2>
+      <form id="formularioIncidente">
+        <!-- TODO (Dev1, 2.3.2): campos titulo, descripcion, categoria, prioridad y usuario responsable -->
+        <button type="submit">Registrar</button>
+      </form>
+    </section>
+    <section>
+      <h2>Incidentes registrados</h2>
+      <div id="filtrosIncidentes"><!-- TODO: filtros por categoria, prioridad, estado y fechas --></div>
+      <div id="contenedorTablaIncidentes"></div>
+    </section>
+  </main>
+  <script type="module" src="../js/paginas/paginaGestionIncidentes.js"></script>
+</body>
+</html>
