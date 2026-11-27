@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<!-- Dashboard con los 7 indicadores, graficos y filtros. | Responsable: Dev2 | Historia ClickUp: 3.3.1 | RF07 -->
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dashboard analitico</title>
+  <link rel="stylesheet" href="../css/estilosGlobales.css" />
+</head>
+<body>
+  <header id="contenedorNavegacion"></header>
+  <main class="contenedorPrincipal">
+    <h1>Dashboard analitico</h1>
+    <section id="filtrosDashboard"><!-- TODO (Dev2, 3.3.1): filtros de fecha, categoria y prioridad --></section>
+    <section id="contenedorGraficos"><!-- un canvas por indicador --></section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+  <script type="module" src="../js/paginas/paginaDashboardAnalitico.js"></script>
+</body>
+</html>
