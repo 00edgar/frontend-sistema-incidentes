@@ -1,0 +1,9 @@
+{
+  "name": "frontend-sistema-incidentes",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Frontend HTML/CSS/JS del sistema de analisis de incidentes",
+  "scripts": {
+    "iniciar": "npx --yes serve -l 5500 ."
+  }
+}
