@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!-- Pantalla de consulta al asistente RAG de un incidente. | Responsable: Dev1 | Historia ClickUp: 3.1.1 | RF05 -->
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Asistente de IA</title>
+  <link rel="stylesheet" href="../css/estilosGlobales.css" />
+</head>
+<body>
+  <header id="contenedorNavegacion"></header>
+  <main class="contenedorPrincipal">
+    <h1>Asistente de IA</h1>
+    <section>
+      <form id="formularioConsultaIA">
+        <!-- TODO (Dev1, 3.1.1): selector de incidente y campo de pregunta/descripcion -->
+        <button type="submit">Consultar</button>
+      </form>
+      <div id="contenedorEstadoConsulta"></div>
+      <div id="contenedorRespuestaIA"><!-- solucion sugerida, pasos, fuentes y similitudes --></div>
+    </section>
+  </main>
+  <script type="module" src="../js/paginas/paginaAsistenteRag.js"></script>
+</body>
+</html>
