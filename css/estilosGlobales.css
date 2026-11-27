@@ -1,0 +1,16 @@
+/* Responsable: Dev1 | Historia ClickUp: 2.3.1 | RF01 | Estilos base compartidos por todas las paginas */
+:root {
+  --colorPrimario: #1f3a5f;
+  --colorFondo: #f6f8fb;
+  --colorTexto: #1d2733;
+  --colorError: #b3261e;
+  --colorExito: #1b7f3b;
+}
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; background: var(--colorFondo); color: var(--colorTexto); }
+.contenedorPrincipal { max-width: 1100px; margin: 0 auto; padding: 1rem; }
+.barraNavegacion { display: flex; gap: 1rem; padding: 0.75rem 1rem; background: var(--colorPrimario); }
+.barraNavegacion a { color: #fff; text-decoration: none; }
+.mensajeError { color: var(--colorError); }
+.mensajeExito { color: var(--colorExito); }
+/* TODO (Dev1, 2.3.1): estilos de formularios, tablas y tarjetas */
